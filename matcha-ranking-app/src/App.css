@@ -1,0 +1,180 @@
+body {
+  background-color: #c0cfb2;
+  margin: 0;
+  padding: 0;
+  color: #1e1e1e;
+}
+
+@font-face {
+  font-family: "Caslon";
+  src: url("./fonts/adobe-caslon-pro-italic.ttf") format("opentype");
+  font-style: italic;
+  font-weight: 100;
+}
+
+
+.page {
+  width: 100%;
+  align-items: flex-start;
+  padding: 3rem 6vw;
+  background-color: #c0cfb2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #1e1e1e;
+}
+
+.matcha-icon {
+  width: 80px;
+  height: auto;
+  margin-right: 3rem;
+  flex-shrink: 0;
+}
+
+.description {
+  font-size: 1.75rem;
+  max-width: 60rem;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+.links a {
+  font-family: "Caslon", serif;
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  color: #325038;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.brand-heading-1 {
+  font-family: "Caslon", serif;
+  font-style: italic;
+  font-size: 4.5rem;
+  background-color: #c0cfb2;
+  color: #1e1e1e;
+  text-align: left;
+  margin-bottom: 0;
+  position: sticky;
+}
+
+.brand-heading-2 {
+  font-family: "Caslon", serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  width: 100%;
+  background-color: #c0cfb2;
+  color: #1e1e1e;
+  text-align: left;
+  margin-top: 0.2rem;
+  position: sticky;
+  line-height: 1
+}
+
+.cafe-list {
+  font-size: 1.25rem;
+  max-width: 70rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+
+.cafe-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* allows it to stack on smaller screens */
+  gap: 9rem;
+  margin-bottom: 2rem;
+}
+
+.cafe-lists-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.cafe-list-2 {
+  flex: 1;
+  min-width: 250px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+.note {
+  margin-top: 2rem;
+  font-weight: 200;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underline-animated {
+  position: relative;
+  display: inline-block;
+}
+
+/* ::after = underline SVG that animates in */
+.underline-animated::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 12px;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 100 10' xmlns='http://www.w3.org/2000/svg'><path d='M0,8 Q50,2 100,8' fill='none' stroke='%231e1e1e' stroke-width='1.5' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: drawUnderline 0.2s ease-out forwards;
+  opacity: 0;
+}
+
+.underline-animated::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: -12px;
+  width: 80%;
+  height: 10px;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 100 10' xmlns='http://www.w3.org/2000/svg'><path d='M0,8 Q50,2 100,8' fill='none' stroke='%231e1e1e' stroke-width='1.2' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: drawUnderline 0.1s ease-out forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+/* Animate stroke reveal */
+@keyframes drawUnderline {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.underline-animated::after {
+  animation-delay: 0.5s;
+  transform-origin: left;
+  transform: scaleX(0);
+}
