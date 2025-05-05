@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="page">
+            <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
       <p className="brand-heading-1">Hi, I’m <em>Avni</em></p>
       <p className="brand-heading-2">
       and I <span className="underline-animated">love</span> matcha.</p>

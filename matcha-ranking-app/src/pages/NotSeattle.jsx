@@ -4,6 +4,7 @@ import matcha from "../assets/matcha.png";
 export default function NotSeattle() {
   return (
     <div className="page">
+       <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
       <p className="brand-heading-1">Not Seattle</p>
       <p className="cafe-list">La La Land Cafe - Los Angeles, CA</p>
 
