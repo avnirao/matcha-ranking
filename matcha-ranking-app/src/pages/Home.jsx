@@ -1,5 +1,5 @@
 import "../App.css";
-import matcha from "../assets/matcha.png";
+import matcha from "../assets/matcha-avni.png";
 import { Link } from 'react-router-dom';
 
 export default function Home() {
