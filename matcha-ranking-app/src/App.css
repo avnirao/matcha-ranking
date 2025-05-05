@@ -181,9 +181,9 @@ body {
 
 .matcha-icon-top-left {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 60px;
+  top: 2rem;
+  left: 2rem;
+  width: 90px;
   height: auto;
   z-index: 100;
 }
