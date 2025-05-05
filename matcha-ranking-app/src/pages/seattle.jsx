@@ -1,5 +1,5 @@
 import "../App.css";
-import matcha from "matcha-ranking-app/src/assets/matcha-avni.png"
+import matcha from "../assets/matcha-avni.png";
 
 export default function Seattle() {
   return (
