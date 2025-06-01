@@ -14,15 +14,15 @@ body {
 
 
 .page {
-  width: 100%;
   align-items: flex-start;
   padding: 3rem 6vw;
   background-color: #c0cfb2;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #1e1e1e;
 }
+
+
 
 .matcha-icon {
   width: 80px;

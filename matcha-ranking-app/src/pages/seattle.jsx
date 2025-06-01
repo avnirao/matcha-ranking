@@ -16,10 +16,11 @@ export default function Seattle() {
           <p>Made in House - Vanilla Matcha!</p>
           <p>Café Ladro - Game, Set, Matcha</p>
           <p>Bonito - Strawberry Matcha Latte</p>
+          <p>Phe - Matcha Latte w/ Sweet Cream</p>
         </div>
 
         <div className="cafe-list-2">
-          <p>Ugly Mug - Strawberry Matcha Latte</p>
+          
           <p>Franie - Iced Matcha Latte</p>
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
@@ -36,6 +37,7 @@ export default function Seattle() {
         <p>Farine Bakery & Café</p>
         <p>Fresh Flours Bakery</p>
         <p>Mercurys Coffee Co.</p>
+        <p>Ugly Mug - Strawberry Matcha Latte</p>
         <p>Salesforce Social Lounge</p>
         <p>Petit Pierre Bakery</p>
         <p>Olympia Coffee Roasting Co.</p>
