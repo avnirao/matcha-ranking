@@ -12,7 +12,7 @@ export default function Home() {
       <p className="description">
         I've tried a ton of cafés in my search for the best matcha, and I always get asked for recs.
         My rankings lived in my Notes app for a while, but I figured it was time to make
-        something better — so I built this site.
+        something better — so I made this for fun one afternoon!
       </p>
       <div className="links">
       <Link to="/seattle">seattle</Link>

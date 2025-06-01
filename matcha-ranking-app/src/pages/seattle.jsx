@@ -21,7 +21,7 @@ export default function Seattle() {
 
         <div className="cafe-list-2">
           
-          <p>Franie - Iced Matcha Latte</p>
+          <p>Farine - Iced Matcha Latte</p>
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
           <p>Aroom - Gloomy Matcha</p>
