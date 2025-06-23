@@ -17,7 +17,7 @@ export default function washington() {
         <div className="cafe-list">
           <p>Nana’s Green Tea</p>
           <p>Leon’s Coffee House - Iced Matcha Latte</p>
-          <p>Made in House - Vanilla Matcha!</p>
+          <p>Made in House - Vanilla Matcha</p>
           <p>Café Ladro - Game, Set, Matcha</p>
           <p>Bonito - Strawberry Matcha Latte</p>
           <p>Phe - Matcha Latte w/ Sweet Cream</p>
