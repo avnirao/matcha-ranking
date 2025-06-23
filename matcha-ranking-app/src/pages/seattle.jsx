@@ -49,8 +49,8 @@ export default function Seattle() {
       </div>
 
       <p className="note">
-        <strong>Note:</strong> This list has been curated with meticulous care and a discerning palate.
-        While I stand by each selection, taste is subjective. Proceed thoughtfully!
+        <strong>note:</strong> while i usually rank places after i've been there at least twice, some of these are one-time reviews. 
+        so, there might be variation! proceed thoughtfully!!
       </p>
     </div>
   );
