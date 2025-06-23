@@ -1,11 +1,15 @@
 import "../App.css";
 import matcha from "../assets/matcha-avni.png";
+import { Link } from "react-router-dom";
+
 
 export default function washington() {
   return (
     <div className="page">
       {/* Matcha Icon in the Top Left */}
-      <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
+      <Link to="/">
+        <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
+      </Link>
 
       <p className="brand-heading-1">Washington</p>
 
