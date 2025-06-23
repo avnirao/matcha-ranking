@@ -1,13 +1,13 @@
 import "../App.css";
 import matcha from "../assets/matcha-avni.png";
 
-export default function Seattle() {
+export default function washington() {
   return (
     <div className="page">
       {/* Matcha Icon in the Top Left */}
       <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
 
-      <p className="brand-heading-1">Seattle</p>
+      <p className="brand-heading-1">Washington</p>
 
       <div className="cafe-section">
         <div className="cafe-list">
@@ -20,7 +20,6 @@ export default function Seattle() {
         </div>
 
         <div className="cafe-list-2">
-          
           <p>Farine - Iced Matcha Latte</p>
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
@@ -38,13 +37,11 @@ export default function Seattle() {
         <p>Fresh Flours Bakery</p>
         <p>Mercurys Coffee Co.</p>
         <p>Ugly Mug - Strawberry Matcha Latte</p>
-        <p>Salesforce Social Lounge</p>
         <p>Petit Pierre Bakery</p>
         <p>Olympia Coffee Roasting Co.</p>
         <p>Dunkin’</p>
         <p>Microsoft Café</p>
         <p>Two Kick Coffee</p>
-        <p>Joe & The Juice</p>
         <p>Good Earth Coffeehouse</p>
       </div>
 

@@ -8,15 +8,15 @@ export default function Home() {
       <img src={matcha} alt="Matcha Icon" className="matcha-icon-top-left" />
       <p className="brand-heading-1">Hi, I’m <em>Avni</em></p>
       <p className="brand-heading-2">
-      and i <span className="underline-animated">love</span> matcha.</p>
+      and I <span className="underline-animated">love</span> matcha.</p>
       <p className="description">
         i've tried a ton of cafés in my search for the best matcha, and i always get asked for recs.
         my rankings lived in my notes app for a while, but i figured it was time to make
         something better — so i made this for fun one afternoon!
       </p>
       <div className="links">
-      <Link to="/seattle">seattle</Link>
-      <Link to="/not-seattle">bay area</Link>
+      <Link to="/washington">washington</Link>
+      <Link to="/california">california</Link>
       </div>
     </div>
   );
