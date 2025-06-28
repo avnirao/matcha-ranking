@@ -14,6 +14,7 @@ export default function california() {
       <p className="cafe-list">
         <p>Cafe Maiko - San Jose, CA ★★★★★</p>
         <p> La La Land Cafe - Los Angeles, CA ★★★★☆</p>
+        <p> LinkedIn Office (Mango Matcha) - San Francisco, CA ★★★☆☆ </p>
         </p>
 
       <p className="brand-heading-2">Beyond</p>
