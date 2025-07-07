@@ -20,7 +20,7 @@ export default function washington() {
           <p>Made in House - Vanilla Matcha</p>
           <p>Café Ladro - Game, Set, Matcha</p>
           <p>Bonito - Strawberry Matcha Latte</p>
-          <p>Phe - Matcha Latte w/ Sweet Cream</p>
+          <p>Phê - Matcha Latte w/ Sweet Cream</p>
         </div>
 
         <div className="cafe-list-2">
@@ -28,7 +28,7 @@ export default function washington() {
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
           <p>Aroom - Gloomy Matcha</p>
-          <p>Atulea - Strawberry Matcha, Butterfly Matcha, Chocolate Matcha</p>
+          <p>Atulea - Strawberry Matcha, Butterfly Matcha, Chocolate Matcha (in that order) </p>
           <p>Moore - Hot Matcha Latte</p>
         </div>
       </div>

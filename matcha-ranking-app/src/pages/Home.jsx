@@ -18,7 +18,7 @@ export default function Home() {
       </p>
       <div className="links">
       <Link to="/washington">washington</Link>
-      <Link to="/california">california</Link>
+      <Link to="/california">california (& beyond)</Link>
       </div>
     </div>
   );
