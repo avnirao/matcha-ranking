@@ -21,11 +21,12 @@ export default function california() {
         <p> LinkedIn Office (Mango Matcha) - San Francisco, CA ★★★☆☆ </p>
         <p> Hero Coffee & Bar - Chicago, IL ★☆☆☆☆ </p>
         <p> Joe & The Juice - Washington D.C. ★☆☆☆☆ </p>
+        <p> Matchaful - New York City, NY ☆☆☆☆☆ </p>
         </p>
 
 
       <p className="note"> 
-      <strong>note:</strong> still very much under construction. (as a side note, DON'T go to matchaful)
+      <strong>note:</strong> still very much under construction.
       </p>
     </div>
   );
