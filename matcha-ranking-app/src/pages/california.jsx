@@ -13,11 +13,15 @@ export default function california() {
       <p className="cafe-list">
         <p> Cafe Maiko - San Jose, CA ★★★★★ </p>
         <p> Academic Coffee (Banana Cream Matcha) - Santa Clara, CA ★★★★★ </p>
+        <p> Izumi Matcha - San Jose, CA ★★★★★ </p>
         <p> Gathers Tea Bar - Chicago, IL ★★★★★ </p>
-        <p> Molly Tea - Sunnyvale, CA ★★★☆☆ </p>
+        <p> Tadaima - San Francisco, CA ★★★★☆</p>
         <p> Kiss of Matcha - San Francisco, CA ★★★★☆ </p>
+        <p> Molly Tea - Sunnyvale, CA ★★★☆☆ </p>
         <p> Dr.ink - San Jose, CA ★★★☆☆  </p>
         <p> La La Land Cafe - Los Angeles, CA ★★★☆☆ </p>
+        <p> Marawu Seicha - Palo Alto, CA ★★★☆☆ </p>
+        <p> HeyTea - Sunnyvale, CA ★★★☆☆ </p>
         <p> LinkedIn Office (Mango Matcha) - San Francisco, CA ★★★☆☆ </p>
         <p> Hero Coffee & Bar - Chicago, IL ★☆☆☆☆ </p>
         <p> Joe & The Juice - Washington D.C. ★☆☆☆☆ </p>
