@@ -16,20 +16,20 @@ export default function washington() {
       <div className="cafe-section">
         <div className="cafe-list">
           <p>Nana’s Green Tea</p>
-          <p>Vale Matcha & Coffee</p>
+          <p>Vale Matcha & Coffee - Strawberry Matcha, Butter Pecan Matcha</p>
           <p>Made in House - Vanilla Matcha</p>
-          <p>Café Ladro - Game, Set, Matcha</p>
           <p>Bonito - Strawberry Matcha Latte</p>
           <p>Phê - Matcha Latte w/ Sweet Cream</p>
+          <p>Café Ladro - Game, Set, Matcha</p>
         </div>
 
         <div className="cafe-list-2">
-          <p>Miero Coffee Bar</p>
+          <p>Miero Coffee Bar - Strawberry Matcha </p>
+          <p>Aroom - Gloomy Matcha</p>
           <p>Leon’s Coffee House - Iced Matcha Latte</p>
           <p>Farine - Iced Matcha Latte</p>
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
-          <p>Aroom - Gloomy Matcha</p>
           <p>Atulea - Strawberry Matcha, Butterfly Matcha, Chocolate Matcha (in that order) </p>
           <p>Snooze Cafe </p>
           <p>Moore - Hot Matcha Latte</p>
