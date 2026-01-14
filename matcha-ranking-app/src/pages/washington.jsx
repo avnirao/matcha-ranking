@@ -30,6 +30,7 @@ export default function washington() {
           <p>Farine - Iced Matcha Latte</p>
           <p>Mr. West - Iced Vanilla Matcha Latte</p>
           <p>George - Hot Matcha Latte</p>
+          <p>Sip House - Strawberry Matcha</p>
           <p>Atulea - Strawberry Matcha, Butterfly Matcha, Chocolate Matcha (in that order) </p>
           <p>Snooze Cafe </p>
           <p>Moore - Hot Matcha Latte</p>
