@@ -15,12 +15,18 @@ export default function washington() {
 
       <div className="cafe-section">
         <div className="cafe-list">
+          <p>Moment Coffee</p>
           <p>Nana’s Green Tea</p>
           <p>Vale Matcha & Coffee - Strawberry Matcha, Butter Pecan Matcha</p>
           <p>Made in House - Vanilla Matcha</p>
           <p>Bonito - Strawberry Matcha Latte</p>
           <p>Phê - Matcha Latte w/ Sweet Cream</p>
           <p>Café Ladro - Game, Set, Matcha</p>
+          <p>Yoka Tea</p>
+          <p>Mina’s Matcha</p>
+          <p>Jin Jin Matcha</p>
+          <p>MOWOOD</p>
+          <p>PLUS84</p>
         </div>
 
         <div className="cafe-list-2">
@@ -39,9 +45,12 @@ export default function washington() {
 
       <div className="cafe-list">
         <p>Matcha Magic</p>
+        <p>LE GREY TEA CO.</p>
         <p>Café Flora</p>
         <p>Anchorhead Coffee</p>
         <p>Farine Bakery & Café</p>
+        <p>CHAYAN</p>
+        <p>URL Coffee</p>
         <p>Fresh Flours Bakery</p>
         <p>Mercurys Coffee Co.</p>
         <p>Ugly Mug - Strawberry Matcha Latte</p>
@@ -51,6 +60,8 @@ export default function washington() {
         <p>Microsoft Café</p>
         <p>Two Kick Coffee</p>
         <p>Good Earth Coffeehouse</p>
+        <p>Taz Matcha</p>
+        <p>Basecamp Cafe and Bar</p>
       </div>
 
       <p className="note">
